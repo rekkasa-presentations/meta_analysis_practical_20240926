@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Practical: Formulating Data"
+  navbar:
+    right:
+      - icon: envelope
+        href: "mailto:arekkas@certh.gr"
+      - icon: github
+        href: "https://github.com/rekkasa-presentations/ml-in-omop-summerschool-2024"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
