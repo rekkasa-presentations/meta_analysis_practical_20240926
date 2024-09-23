@@ -3,8 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Practical: Formulating Data"
+  title: "Training School -- Impact of Meta-analyses on Clinical Practice"
   navbar:
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Part A"
+        href: part_a.html
+      - text: "Part B"
+        href: part_b.html
     right:
       - icon: envelope
         href: "mailto:arekkas@certh.gr"

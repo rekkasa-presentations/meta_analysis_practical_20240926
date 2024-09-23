@@ -1,4 +1,6 @@
 ---
-title: "Practical: Formulating Data"
+title: "Formulating data for meta-analyses"
 ---
 
+This is the website for the second practical of the Training School -- Impact of
+Meta-analyses on Clinical Practice.

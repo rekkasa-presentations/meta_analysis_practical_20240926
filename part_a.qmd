@@ -1,0 +1,90 @@
+---
+title: "Part A"
+---
+
+## Formulate the review question
+
+> **Question 1**
+>
+> Which is the population under study in this review?
+>
+> - How is the disease/condition defined?
+>
+> - What are the most important characteristics that describe these people?
+>
+> - Are there any relevant demographic factors (e.g. age, sex, ethnicity)?
+>
+> - Are there other types of people who should be excluded from the review?
+
+
+
+> **Question 2**
+>
+> Which are the interventions of the review?
+
+
+> **Question 3**
+>
+> Which are the comparisons of the review?
+
+
+> **Question 4**
+>
+> Which are the outcomes considered in this review?
+
+
+
+## Plan eligibility criteria
+
+
+> **Question 5**
+>
+> Which study designs are included?
+
+
+## Search for potentially relevant studies
+
+
+> **Question 6**
+>
+> Which study designs are included?
+
+
+## Select eligible studies
+
+> **Question 7**
+>
+> Extraction results:
+>
+> - How many studies were identified in total?
+>
+> - How many of those were ultimately considered for further analyses?
+>
+> - What were the reasons for excluding the rest of the trials?
+
+
+
+## Collect data
+
+> **Question 8**
+>
+> Where was the data extracted from?
+>
+> - What were the databases considered?
+> 
+> - Were the results of ongoing trials included in literature search?
+> 
+> - Look at the search terms of *Appendix 1* for the case of CENTRAL. Can you
+> follow what is happening?
+
+
+
+> **Question 9**
+>
+> Collection of data
+>
+> - What are the key data reported regarding the included studies?
+> 
+> - What were the main reasons for exclusion of the considered studies?
+>
+> - What were the results regarding ongoing trials?
