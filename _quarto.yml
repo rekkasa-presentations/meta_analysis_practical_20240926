@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Training School -- Impact of Meta-analyses on Clinical Practice"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Part A"
+        href: part_a.html
+      - text: "Part B"
+        href: part_b.html
+    right:
+      - icon: envelope
+        href: "mailto:arekkas@certh.gr"
+      - icon: github
+        href: "https://github.com/rekkasa-presentations/ml-in-omop-summerschool-2024"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

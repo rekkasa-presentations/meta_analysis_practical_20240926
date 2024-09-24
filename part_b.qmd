@@ -1,0 +1,74 @@
+---
+title: "Part B"
+---
+
+<details>
+<summary> Question 1 </summary>
+Import the data and explain what they are about.
+</details>
+
+
+<details>
+<summary> Question 2 </summary>
+How many studies compare celecoxib to placebo with regard to pain in less than
+24 weeks?
+</details>
+
+<details>
+<summary> Question 3 </summary>
+In total, how many patients received celecoxib and how many received placebo
+in the studies comparing these two treatments with regard to pain in less than
+24 weeks?
+</details>
+
+
+<details>
+<summary>Question 4</summary>
+What was the average level of pain in less than 24 weeks in the
+celecoxib and the placebo patients?
+</details>
+
+<details>
+<summary>Question 5</summary>
+For how many studies comparing celecoxib to placebo with regard to pain in
+less than 24 weeks do we not have information on the year they were conducted?
+</details>
+
+<details>
+<summary>Question 6</summary>
+What is the earliest, latest and median publication year of the studies
+comparing celecoxib to placebo with regard to all pain in less than 24 weeks,
+if we disregard any missing information?
+</details>
+
+
+
+<details>
+<summary>Question 7</summary>
+What is the relative treatment effect of the study with id "STD-Asmus-2014-Study-1"?
+</details>
+
+<details>
+<summary>Question 8</summary>
+How many studies compare celecoxib to placebo with regard to number of adverse
+events ?
+</details>
+
+<details>
+<summary>Question 9</summary>
+In total, how many patients received celecoxib and how many received placebo
+in the studies comparing these two treatments with regard to number of adverse
+events?
+</details>
+
+<details>
+<summary>Question 10</summary>
+What was the average number of adverse events in the celecoxib and the placebo
+patients?
+</details>
+
+
+<details>
+<summary>Question 11</summary>
+What is the relative treatment effect of the study with id "STD-Asmus-2014-Study-1"?
+</details>

@@ -1,0 +1,246 @@
+---
+title: "Part A"
+---
+
+<details>
+<summary>Question 1</summary>
+What is the objective of the systematic review and what were the main findings?
+
+<details>
+<summary>Solution</summary>
+*Objective*:
+To assess the clinical benefits (pain, function, quality of life) and safety
+(withdrawals due to adverse effects, serious adverse effects, overall
+discontinuation rates) of celecoxib in osteoarthritis
+
+*Conclusion*:
+Current evidence indicates that celecoxib is slightly better than placebo and
+some tNSAIDs in reducing pain and improving physical function. The authors are
+uncertain if harms differ among celecoxib and placebo or tNSAIDs due to risk of
+bias, low quality evidence for many outcomes, and failure to obtain data from
+completed studies.
+</details>
+</details>
+
+## Formulate the review question
+
+<details>
+<summary>Question 2</summary>
+Which is the population under study in this review?
+
+- How is the disease/condition defined?
+
+- What are the most important characteristics that describe these people?
+
+- Are there any relevant demographic factors (e.g. age, sex, ethnicity)?
+
+- Are there other types of people who should be excluded from the review?
+
+<details>
+<summary>Solution</summary>
+
+*Disease definition*:
+Participants with clinically- or radiologically-confirmed primary osteoarthritis
+(OA) of the knee or hip or bothhip and knee OA. The diagnosis of OA was based on
+valid clinical and radiographic findings in accordance with the American College
+of Rheumatology (ACR) criteria.
+
+*Demographic factors*:
+Patients of any age and either sex. 
+
+*Exclusion*:
+Trials including only participants with inflammatory arthritis, such as
+rheumatoid arthritis, were not considered.
+</details>
+</details>
+
+
+
+
+<details>
+<summary>Question 3</summary>
+Which are the interventions of the review?
+
+<details>
+<summary>Solution</summary>
+* Oral celecoxib 200 mg daily (either as 200 mg once daily or 100 mg twice daily)
+* No intervention/placebo
+* Traditional NSAIDs
+</details>
+</details>
+
+<details>
+<summary>Question 4</summary>
+Which are the comparisons of the review?
+<details>
+<summary>Solution</summary>
+* Celecoxib vs traditional NSAIDs
+* Celecoxib vs Placebo
+</details>
+</details>
+
+
+<details>
+<summary>Question 5</summary>
+Which are the outcomes considered in this review?
+
+<details>
+<summary>Solution</summary>
+
+*Benefits*:
+
+* Pain
+* Functional ability
+* Quality of life
+
+*Harms*:
+
+* Withdrawal due to adverse events
+* Serious adverse events
+* Presentation with perforations, ulcer or bleed (GI tract finding)
+* Cardiovascular finding
+
+</details>
+</details>
+
+
+
+## Plan eligibility criteria
+
+
+<details>
+<summary>Question 6</summary>
+Which studies should be excluded from the search?
+
+<details>
+<summary>Solution</summary>
+* Fewer than 50 participants in each arm
+* Shorter than 4 weeks duration
+</details>
+
+</details>
+
+
+## Search for potentially relevant studies
+
+
+<details>
+<summary>Question 7</summary>
+Which study designs are included? What about ongoing trials?
+
+<details>
+<summary>Solution</summary>
+*Study designs*:
+
+* Published prospective RCTs.
+
+Ongoing trials were searched in:
+
+* the trial registry ClinicalTrials.gov
+* the World Health Organization International Clincal Trials Registry Platform
+
+</details>
+
+</details>
+
+
+<details>
+<summary>Question 8</summary>
+Which databases were considered for conducting the review?
+Look at the search terms of *Appendix 1* for the case of CENTRAL. Can you
+describe what the search is about?
+
+<details>
+<summary>Solution</summary>
+*Databases*:
+
+* Cochrane Central Register of Controlled Clinical Trials (CENTRAL)
+* MEDLINE
+* Embase
+
+*Search terms*:
+
+This search is designed to find studies or articles related to cyclooxygenase-2
+(COX-2) inhibitors, specifically focusing on their use in the context of
+osteoarthritis:
+
+* It looks for any papers that mention cyclooxygenase-2 (also known as COX-2) by
+checking for different ways the term might appear in titles or abstracts (e.g.,
+"cyclooxygenase-2," "cyclooxygenase-II," or "COX-2").
+
+* It looks for papers mentioning specific COX-2 inhibitors like celecoxib
+(which is a common COX-2 inhibitor, often marketed as Celebrex) by checking for
+these terms in titles or abstracts.
+
+* It looks for certain keywords (e.g., "cyclooxygenase," "celecoxib," "COX-2
+inhibitors") and includes all the relevant medical subject headings (like
+"Cyclooxygenase Inhibitors") for broader coverage.
+
+* It narrows the search to studies related to osteoarthritis by looking
+for specific terms and keywords related to the condition (e.g.,
+"osteoarthritis," "arthritis").
+
+</details>
+</details>
+
+## Select eligible studies
+
+<details>
+<summary>Question 9</summary>
+Extraction results:
+
+- How many studies were identified in total?
+
+- How many of those were ultimately considered for further analyses?
+
+- What were the reasons for excluding the rest of the trials?
+
+<details>
+<summary>Solution</summary>
+* After removal of duplicates 6237 studies were assessed
+* 36 studies met all inclusion criteria
+* Studies were excluded for the following main reasons:
+  * duration shorter than four weeks
+  * fewer than 50 participants in each arm 
+  * reviews summarizing primary studies
+  * conference abstracts with irrelevant comparators
+  * primary study, but not an RCT
+  * RCT comparing celecoxib with comparators that were irrelevant
+  * RCT including participants with post-traumatic osteoarthritis
+  * RCT with irrelevant dosage of celecoxib and no benefit outcomes of interest
+  * RCT that included patients with osteoarthritis and reumatoid arhtiris but 
+  were not analyzed separately
+</details>
+</details>
+
+
+
+## Collect data
+
+
+<details>
+<summary>Question 10</summary>
+Collection of data
+
+- What are the key data reported regarding the included studies?
+
+<details>
+<summary>Solution</summary>
+* Methods:
+  * Study design
+  * Duration
+  * Study dates
+  * Locations
+* Participants
+  * Randomized
+  * Completed
+  * Mean age
+  * Sex
+  * Study inclusion criteria
+* Interventions
+* Outcomes
+* Funding source
+* Declarations of interest
+</details>
+</details>
+

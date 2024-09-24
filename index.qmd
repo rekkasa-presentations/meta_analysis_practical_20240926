@@ -1,0 +1,15 @@
+---
+title: "Formulating data for meta-analyses"
+---
+
+This is the website for the second practical of the Training School -- Impact of
+Meta-analyses on Clinical Practice.
+
+## Part A
+
+For the completion of **Part A** you will need to download the Cochrane systematic review from [here](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009865.pub2/epdf/full/en)
+
+## Part B
+
+For the completion of *Part B* you will need to download the data (csv file)
+from [here](https://github.com/rekkasa-presentations/meta_analysis_practical_20240926/blob/develop/data/practical_20240926.csv)

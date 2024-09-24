@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Formulating data for meta-analyses",
+    "section": "",
+    "text": "This is the website for the second practical of the Training School – Impact of Meta-analyses on Clinical Practice."
+  },
+  {
+    "objectID": "part_a.html",
+    "href": "part_a.html",
+    "title": "Part A",
+    "section": "",
+    "text": "Question 1\n\nWhat is the objective of the systematic review and what were the main findings?\n\n\nSolution\n\nObjective: To assess the clinical benefits (pain, function, quality of life) and safety (withdrawals due to adverse effects, serious adverse effects, overall discontinuation rates) of celecoxib in osteoarthritis\nConclusion: Current evidence indicates that celecoxib is slightly better than placebo and some tNSAIDs in reducing pain and improving physical function. The authors are uncertain if harms differ among celecoxib and placebo or tNSAIDs due to risk of bias, low quality evidence for many outcomes, and failure to obtain data from completed studies."
+  },
+  {
+    "objectID": "part_a.html#formulate-the-review-question",
+    "href": "part_a.html#formulate-the-review-question",
+    "title": "Part A",
+    "section": "Formulate the review question",
+    "text": "Formulate the review question\n\n\nQuestion 2\n\nWhich is the population under study in this review?\n\nHow is the disease/condition defined?\nWhat are the most important characteristics that describe these people?\nAre there any relevant demographic factors (e.g. age, sex, ethnicity)?\nAre there other types of people who should be excluded from the review?\n\n\n\nSolution\n\nDisease definition: Participants with clinically- or radiologically-confirmed primary osteoarthritis (OA) of the knee or hip or bothhip and knee OA. The diagnosis of OA was based on valid clinical and radiographic findings in accordance with the American College of Rheumatology (ACR) criteria.\nDemographic factors: Patients of any age and either sex.\nExclusion: Trials including only participants with inflammatory arthritis, such as rheumatoid arthritis, were not considered.\n\n\n\n\nQuestion 3\n\nWhich are the interventions of the review?\n\n\nSolution\n\n\nOral celecoxib 200 mg daily (either as 200 mg once daily or 100 mg twice daily)\nNo intervention/placebo\nTraditional NSAIDs\n\n\n\n\n\nQuestion 4\n\nWhich are the comparisons of the review?\n\n\nSolution\n\n\nCelecoxib vs traditional NSAIDs\nCelecoxib vs Placebo\n\n\n\n\n\nQuestion 5\n\nWhich are the outcomes considered in this review?\n\n\nSolution\n\nBenefits:\n\nPain\nFunctional ability\nQuality of life\n\nHarms:\n\nWithdrawal due to adverse events\nSerious adverse events\nPresentation with perforations, ulcer or bleed (GI tract finding)\nCardiovascular finding"
+  },
+  {
+    "objectID": "part_a.html#plan-eligibility-criteria",
+    "href": "part_a.html#plan-eligibility-criteria",
+    "title": "Part A",
+    "section": "Plan eligibility criteria",
+    "text": "Plan eligibility criteria\n\n\nQuestion 6\n\nWhich studies should be excluded from the search?\n\n\nSolution\n\n\nFewer than 50 participants in each arm\nShorter than 4 weeks duration"
+  },
+  {
+    "objectID": "part_a.html#search-for-potentially-relevant-studies",
+    "href": "part_a.html#search-for-potentially-relevant-studies",
+    "title": "Part A",
+    "section": "Search for potentially relevant studies",
+    "text": "Search for potentially relevant studies\n\n\nQuestion 7\n\nWhich study designs are included? What about ongoing trials?\n\n\nSolution\n\nStudy designs:\n\nPublished prospective RCTs.\n\nOngoing trials were searched in:\n\nthe trial registry ClinicalTrials.gov\nthe World Health Organization International Clincal Trials Registry Platform\n\n\n\n\n\nQuestion 8\n\nWhich databases were considered for conducting the review? Look at the search terms of Appendix 1 for the case of CENTRAL. Can you describe what the search is about?\n\n\nSolution\n\nDatabases:\n\nCochrane Central Register of Controlled Clinical Trials (CENTRAL)\nMEDLINE\nEmbase\n\nSearch terms:\nThis search is designed to find studies or articles related to cyclooxygenase-2 (COX-2) inhibitors, specifically focusing on their use in the context of osteoarthritis:\n\nIt looks for any papers that mention cyclooxygenase-2 (also known as COX-2) by checking for different ways the term might appear in titles or abstracts (e.g., “cyclooxygenase-2,” “cyclooxygenase-II,” or “COX-2”).\nIt looks for papers mentioning specific COX-2 inhibitors like celecoxib (which is a common COX-2 inhibitor, often marketed as Celebrex) by checking for these terms in titles or abstracts.\nIt looks for certain keywords (e.g., “cyclooxygenase,” “celecoxib,” “COX-2 inhibitors”) and includes all the relevant medical subject headings (like “Cyclooxygenase Inhibitors”) for broader coverage.\nIt narrows the search to studies related to osteoarthritis by looking for specific terms and keywords related to the condition (e.g., “osteoarthritis,” “arthritis”)."
+  },
+  {
+    "objectID": "part_a.html#collect-data",
+    "href": "part_a.html#collect-data",
+    "title": "Part A",
+    "section": "Collect data",
+    "text": "Collect data\n\n\nQuestion 10\n\nCollection of data\n\nWhat are the key data reported regarding the included studies?\n\n\n\nSolution\n\n\nMethods:\n\nStudy design\nDuration\nStudy dates\nLocations\n\nParticipants\n\nRandomized\nCompleted\nMean age\nSex\nStudy inclusion criteria\n\nInterventions\nOutcomes\nFunding source\nDeclarations of interest"
+  },
+  {
+    "objectID": "part_a.html#select-eligible-studies",
+    "href": "part_a.html#select-eligible-studies",
+    "title": "Part A",
+    "section": "Select eligible studies",
+    "text": "Select eligible studies\n\n\nQuestion 9\n\nExtraction results:\n\nHow many studies were identified in total?\nHow many of those were ultimately considered for further analyses?\nWhat were the reasons for excluding the rest of the trials?\n\n\n\nSolution\n\n\nAfter removal of duplicates 6237 studies were assessed\n36 studies met all inclusion criteria\nStudies were excluded for the following main reasons:\n\nduration shorter than four weeks\nfewer than 50 participants in each arm\nreviews summarizing primary studies\nconference abstracts with irrelevant comparators\nprimary study, but not an RCT\nRCT comparing celecoxib with comparators that were irrelevant\nRCT including participants with post-traumatic osteoarthritis\nRCT with irrelevant dosage of celecoxib and no benefit outcomes of interest\nRCT that included patients with osteoarthritis and reumatoid arhtiris but were not analyzed separately"
+  },
+  {
+    "objectID": "part_b.html",
+    "href": "part_b.html",
+    "title": "Part B",
+    "section": "",
+    "text": "Question 1\n\nImport the data and explain what they are about.\n\n\n\nQuestion 2\n\nHow many studies compare celecoxib to placebo with regard to pain in less than 24 weeks?\n\n\n\nQuestion 3\n\nIn total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to pain in less than 24 weeks?\n\n\n\nQuestion 4\n\nWhat was the average level of pain in less than 24 weeks in the celecoxib and the placebo patients?\n\n\n\nQuestion 5\n\nFor how many studies comparing celecoxib to placebo with regard to pain in less than 24 weeks do we not have information on the year they were conducted?\n\n\n\nQuestion 6\n\nWhat is the earliest, latest and median publication year of the studies comparing celecoxib to placebo with regard to all pain in less than 24 weeks, if we disregard any missing information?\n\n\n\nQuestion 7\n\nWhat is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?\n\n\n\nQuestion 8\n\nHow many studies compare celecoxib to placebo with regard to number of adverse events ?\n\n\n\nQuestion 9\n\nIn total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to number of adverse events?\n\n\n\nQuestion 10\n\nWhat was the average number of adverse events in the celecoxib and the placebo patients?\n\n\n\nQuestion 11\n\nWhat is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?"
+  },
+  {
+    "objectID": "index.html#part-a",
+    "href": "index.html#part-a",
+    "title": "Formulating data for meta-analyses",
+    "section": "Part A",
+    "text": "Part A\nFor the completion of Part A you will need to download the Cochrane systematic review from here"
+  },
+  {
+    "objectID": "index.html#part-b",
+    "href": "index.html#part-b",
+    "title": "Formulating data for meta-analyses",
+    "section": "Part B",
+    "text": "Part B\nFor the completion of Part B you will need to download the data (csv file) from here"
+  }
+]
