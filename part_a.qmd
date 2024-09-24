@@ -4,87 +4,96 @@ title: "Part A"
 
 ## Formulate the review question
 
-> **Question 1**
->
-> Which is the population under study in this review?
->
-> - How is the disease/condition defined?
->
-> - What are the most important characteristics that describe these people?
->
-> - Are there any relevant demographic factors (e.g. age, sex, ethnicity)?
->
-> - Are there other types of people who should be excluded from the review?
+<details>
+<summary>Question 1</summary>
+Which is the population under study in this review?
+
+- How is the disease/condition defined?
+
+- What are the most important characteristics that describe these people?
+
+- Are there any relevant demographic factors (e.g. age, sex, ethnicity)?
+
+- Are there other types of people who should be excluded from the review?
+</details>
 
 
 
-> **Question 2**
->
-> Which are the interventions of the review?
+
+<details>
+<summary>Question 2</summary>
+Which are the interventions of the review?
+</details>
+
+<details>
+<summary>Question 3</summary>
+Which are the comparisons of the review?
+</details>
 
 
-> **Question 3**
->
-> Which are the comparisons of the review?
-
-
-> **Question 4**
->
-> Which are the outcomes considered in this review?
+<details>
+<summary>Question 4</summary>
+Which are the outcomes considered in this review?
+</details>
 
 
 
 ## Plan eligibility criteria
 
 
-> **Question 5**
->
-> Which study designs are included?
+<details>
+<summary>Question 5</summary>
+Which study designs are included?
+</details>
 
 
 ## Search for potentially relevant studies
 
 
-> **Question 6**
->
-> Which study designs are included?
+<details>
+<summary>Question 6</summary>
+Which study designs are included?
+</details>
 
 
 ## Select eligible studies
 
-> **Question 7**
->
-> Extraction results:
->
-> - How many studies were identified in total?
->
-> - How many of those were ultimately considered for further analyses?
->
-> - What were the reasons for excluding the rest of the trials?
+<details>
+<summary>Question 7</summary>
+Extraction results:
+
+- How many studies were identified in total?
+
+- How many of those were ultimately considered for further analyses?
+
+- What were the reasons for excluding the rest of the trials?
+</details>
 
 
 
 ## Collect data
 
-> **Question 8**
->
-> Where was the data extracted from?
->
-> - What were the databases considered?
-> 
-> - Were the results of ongoing trials included in literature search?
-> 
-> - Look at the search terms of *Appendix 1* for the case of CENTRAL. Can you
-> follow what is happening?
+<details>
+<summary>Question 8</summary>
+Where was the data extracted from?
+
+- What were the databases considered?
+
+- Were the results of ongoing trials included in literature search?
+
+- Look at the search terms of *Appendix 1* for the case of CENTRAL. Can you
+follow what is happening?
+</details>
 
 
+<details>
+<summary>Question 9</summary>
+Collection of data
 
-> **Question 9**
->
-> Collection of data
->
-> - What are the key data reported regarding the included studies?
-> 
-> - What were the main reasons for exclusion of the considered studies?
->
-> - What were the results regarding ongoing trials?
+- What are the key data reported regarding the included studies?
+
+- What were the main reasons for exclusion of the considered studies?
+
+- What were the results regarding ongoing trials?
+</details>
+
