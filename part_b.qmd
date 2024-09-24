@@ -1,17 +1,36 @@
 ---
 title: "Part B"
+code-fold: true
+code-summary: Solution
+code-line-numbers: true
+code-copy: hover
+execute: 
+  eval: false
 ---
 
 <details>
 <summary> Question 1 </summary>
 Import the data and explain what they are about.
-</details>
 
+```{r, eval=FALSE}
+dd <- read.table(
+  file = "data/practical_20240926.csv",
+  header = TRUE,
+  sep = ","
+)
+```
+
+</details>
 
 <details>
 <summary> Question 2 </summary>
 How many studies compare celecoxib to placebo with regard to pain in less than
 24 weeks?
+
+```{r}
+nrow(dd[dd$outcome_id == 1, ])
+```
+
 </details>
 
 <details>
@@ -19,6 +38,12 @@ How many studies compare celecoxib to placebo with regard to pain in less than
 In total, how many patients received celecoxib and how many received placebo
 in the studies comparing these two treatments with regard to pain in less than
 24 weeks?
+
+```{r}
+sum(dd[dd$outcome_id == 1, ]$n_celecoxib)
+sum(dd[dd$outcome_id == 1, ]$n_placebo)
+```
+
 </details>
 
 
@@ -26,12 +51,23 @@ in the studies comparing these two treatments with regard to pain in less than
 <summary>Question 4</summary>
 What was the average level of pain in less than 24 weeks in the
 celecoxib and the placebo patients?
+
+```{r}
+mean(dd[dd$outcome_id == 1, ]$mean_celecoxib)
+mean(dd[dd$outcome_id == 1, ]$mean_placebo)
+```
+
 </details>
 
 <details>
 <summary>Question 5</summary>
 For how many studies comparing celecoxib to placebo with regard to pain in
 less than 24 weeks do we not have information on the year they were conducted?
+
+```{r}
+sum(is.na(dd[dd$outcome_id == 1, ]$year))
+```
+
 </details>
 
 <details>
@@ -39,6 +75,11 @@ less than 24 weeks do we not have information on the year they were conducted?
 What is the earliest, latest and median publication year of the studies
 comparing celecoxib to placebo with regard to all pain in less than 24 weeks,
 if we disregard any missing information?
+
+```{r}
+nrow(dd[dd$outcome_id == 19, ])
+```
+
 </details>
 
 
@@ -46,12 +87,34 @@ if we disregard any missing information?
 <details>
 <summary>Question 7</summary>
 What is the relative treatment effect of the study with id "STD-Asmus-2014-Study-1"?
+
+```{r}
+data_on_study <- dd[dd$id == "STD-Asmus-2014-Study-1" & dd$outcome_id == 1, ]
+
+m_celecoxib <- data_on_study$mean_celecoxib
+m_placebo <- data_on_study$mean_placebo
+
+sd_celecoxib <- data_on_study$sd_celecoxib
+sd_placebo <- data_on_study$sd_placebo
+
+
+sd_pooled <- sqrt((sd_celecoxib^2 + sd_placebo^2) / 2)
+
+(m_celecoxib - m_placebo) / sd_pooled
+
+```
 </details>
 
 <details>
 <summary>Question 8</summary>
 How many studies compare celecoxib to placebo with regard to number of adverse
 events ?
+
+```{r}
+min(dd[dd$outcome_id == 1, ]$year, na.rm = T)
+max(dd[dd$outcome_id == 1, ]$year, na.rm = T)
+median(dd[dd$outcome_id == 1, ]$year, na.rm = T)
+```
 </details>
 
 <details>
@@ -59,16 +122,40 @@ events ?
 In total, how many patients received celecoxib and how many received placebo
 in the studies comparing these two treatments with regard to number of adverse
 events?
+
+```{r}
+sum(dd[dd$outcome_id == 19, ]$n_celecoxib)
+sum(dd[dd$outcome_id == 19, ]$n_placebo)
+```
 </details>
 
 <details>
 <summary>Question 10</summary>
 What was the average number of adverse events in the celecoxib and the placebo
 patients?
+
+```{r}
+mean(dd[dd$outcome_id == 19, ]$event_celecoxib)
+mean(dd[dd$outcome_id == 19, ]$event_placebo)
+```
+
 </details>
 
 
 <details>
 <summary>Question 11</summary>
 What is the relative treatment effect of the study with id "STD-Asmus-2014-Study-1"?
+
+```{r}
+data_on_study <- dd[dd$id == "STD-Asmus-2014-Study-1" & dd$outcome_id == 19, ]
+
+events_celecoxib <- data_on_study$event_celecoxib
+n_celecoxib <- data_on_study$n_celecoxib
+
+events_placebo <- data_on_study$event_placebo
+n_placebo <- data_on_study$n_placebo
+
+(events_celecoxib/n_celecoxib) / (events_placebo/n_placebo)
+```
+
 </details>

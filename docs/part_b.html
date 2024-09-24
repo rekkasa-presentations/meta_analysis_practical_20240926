@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -152,67 +186,162 @@ ul.task-list li input[type="checkbox"] {
 <summary>
 Question 1
 </summary>
-Import the data and explain what they are about.
+<p>Import the data and explain what they are about.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>dd <span class="ot">&lt;-</span> <span class="fu">read.table</span>(</span>
+<span id="cb1-2"><a href="#cb1-2"></a>  <span class="at">file =</span> <span class="st">"data/practical_20240926.csv"</span>,</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  <span class="at">header =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  <span class="at">sep =</span> <span class="st">","</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 2
 </summary>
-How many studies compare celecoxib to placebo with regard to pain in less than 24 weeks?
+<p>How many studies compare celecoxib to placebo with regard to pain in less than 24 weeks?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">nrow</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 3
 </summary>
-In total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to pain in less than 24 weeks?
+<p>In total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to pain in less than 24 weeks?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">sum</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>n_celecoxib)</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">sum</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>n_placebo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 4
 </summary>
-What was the average level of pain in less than 24 weeks in the celecoxib and the placebo patients?
+<p>What was the average level of pain in less than 24 weeks in the celecoxib and the placebo patients?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">mean</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>mean_celecoxib)</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">mean</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>mean_placebo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 5
 </summary>
-For how many studies comparing celecoxib to placebo with regard to pain in less than 24 weeks do we not have information on the year they were conducted?
+<p>For how many studies comparing celecoxib to placebo with regard to pain in less than 24 weeks do we not have information on the year they were conducted?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>year))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 6
 </summary>
-What is the earliest, latest and median publication year of the studies comparing celecoxib to placebo with regard to all pain in less than 24 weeks, if we disregard any missing information?
+<p>What is the earliest, latest and median publication year of the studies comparing celecoxib to placebo with regard to all pain in less than 24 weeks, if we disregard any missing information?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="fu">nrow</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 7
 </summary>
-What is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?
+<p>What is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>data_on_study <span class="ot">&lt;-</span> dd[dd<span class="sc">$</span>id <span class="sc">==</span> <span class="st">"STD-Asmus-2014-Study-1"</span> <span class="sc">&amp;</span> dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]</span>
+<span id="cb7-2"><a href="#cb7-2"></a></span>
+<span id="cb7-3"><a href="#cb7-3"></a>m_celecoxib <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>mean_celecoxib</span>
+<span id="cb7-4"><a href="#cb7-4"></a>m_placebo <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>mean_placebo</span>
+<span id="cb7-5"><a href="#cb7-5"></a></span>
+<span id="cb7-6"><a href="#cb7-6"></a>sd_celecoxib <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>sd_celecoxib</span>
+<span id="cb7-7"><a href="#cb7-7"></a>sd_placebo <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>sd_placebo</span>
+<span id="cb7-8"><a href="#cb7-8"></a></span>
+<span id="cb7-9"><a href="#cb7-9"></a></span>
+<span id="cb7-10"><a href="#cb7-10"></a>sd_pooled <span class="ot">&lt;-</span> <span class="fu">sqrt</span>((sd_celecoxib<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> sd_placebo<span class="sc">^</span><span class="dv">2</span>) <span class="sc">/</span> <span class="dv">2</span>)</span>
+<span id="cb7-11"><a href="#cb7-11"></a></span>
+<span id="cb7-12"><a href="#cb7-12"></a>(m_celecoxib <span class="sc">-</span> m_placebo) <span class="sc">/</span> sd_pooled</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 8
 </summary>
-How many studies compare celecoxib to placebo with regard to number of adverse events ?
+<p>How many studies compare celecoxib to placebo with regard to number of adverse events ?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="fu">min</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>year, <span class="at">na.rm =</span> T)</span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="fu">max</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>year, <span class="at">na.rm =</span> T)</span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="fu">median</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">1</span>, ]<span class="sc">$</span>year, <span class="at">na.rm =</span> T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 9
 </summary>
-In total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to number of adverse events?
+<p>In total, how many patients received celecoxib and how many received placebo in the studies comparing these two treatments with regard to number of adverse events?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">sum</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ]<span class="sc">$</span>n_celecoxib)</span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="fu">sum</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ]<span class="sc">$</span>n_placebo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 10
 </summary>
-What was the average number of adverse events in the celecoxib and the placebo patients?
+<p>What was the average number of adverse events in the celecoxib and the placebo patients?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="fu">mean</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ]<span class="sc">$</span>event_celecoxib)</span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="fu">mean</span>(dd[dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ]<span class="sc">$</span>event_placebo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 <details>
 <summary>
 Question 11
 </summary>
-What is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?
+<p>What is the relative treatment effect of the study with id “STD-Asmus-2014-Study-1”?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Solution</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a>data_on_study <span class="ot">&lt;-</span> dd[dd<span class="sc">$</span>id <span class="sc">==</span> <span class="st">"STD-Asmus-2014-Study-1"</span> <span class="sc">&amp;</span> dd<span class="sc">$</span>outcome_id <span class="sc">==</span> <span class="dv">19</span>, ]</span>
+<span id="cb11-2"><a href="#cb11-2"></a></span>
+<span id="cb11-3"><a href="#cb11-3"></a>events_celecoxib <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>event_celecoxib</span>
+<span id="cb11-4"><a href="#cb11-4"></a>n_celecoxib <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>n_celecoxib</span>
+<span id="cb11-5"><a href="#cb11-5"></a></span>
+<span id="cb11-6"><a href="#cb11-6"></a>events_placebo <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>event_placebo</span>
+<span id="cb11-7"><a href="#cb11-7"></a>n_placebo <span class="ot">&lt;-</span> data_on_study<span class="sc">$</span>n_placebo</span>
+<span id="cb11-8"><a href="#cb11-8"></a></span>
+<span id="cb11-9"><a href="#cb11-9"></a>(events_celecoxib<span class="sc">/</span>n_celecoxib) <span class="sc">/</span> (events_placebo<span class="sc">/</span>n_placebo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 </details>
 
 
