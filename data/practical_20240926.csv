@@ -1,0 +1,60 @@
+id,study,year,outcome_id,outcome_name,event_celecoxib,n_celecoxib,event_placebo,n_placebo,mean_celecoxib,sd_celecoxib,mean_placebo,sd_placebo
+STD-Asmus-2014-Study-1,Asmus 2014 Study 1,2014,1,All pain < 24 weeks,NA,186,NA,184,-27.3,28.6402,-14.9,27.1293
+STD-Asmus-2014-Study-2,Asmus 2014 Study 2,2014,1,All pain < 24 weeks,NA,194,NA,186,-28,29.2496,-24.6,27.2764
+STD-Bensen-1999,Bensen 1999,1999,1,All pain < 24 weeks,NA,197,NA,203,-27.5,9.9499,-17.4,14.2478
+STD-Bingham-2007-Study-1,Bingham 2007 Study 1,2007,1,All pain < 24 weeks,NA,192,NA,85,-24.9,20.7846,-15.4,22.1269
+STD-Bingham-2007-Study-2,Bingham 2007 Study 2,2007,1,All pain < 24 weeks,NA,202,NA,60,-27.8,23.4509,-16.2,19.3649
+STD-Birbara-2006-Study-1,Birbara 2006 Study 1,2006,1,All pain < 24 weeks,NA,157,NA,78,-28.9,57.6,-21,53
+STD-Birbara-2006-Study-2,Birbara 2006 Study 2,2006,1,All pain < 24 weeks,NA,169,NA,85,-31.6,59.8,-23.1,56.2
+STD-Boswell-2008-Study-A,Boswell 2008 Study A,2008,1,All pain < 24 weeks,NA,109,NA,107,-19.6,19.8,-16.9,21.7
+STD-Boswell-2008-Study-B,Boswell 2008 Study B,,1,All pain < 24 weeks,NA,185,NA,186,-28,27.2,-21.7,30
+STD-Conaghan-2013,Conaghan 2013,2013,1,All pain < 24 weeks,NA,233,NA,227,-1.9,1.62,-1.42,1.62
+STD-DeLemos-2011,DeLemos 2011,2011,1,All pain < 24 weeks,NA,202,NA,200,-33.4,29.8466,-23.8,29.6985
+STD-Essex-2012b,Essex 2012b,2012,1,All pain < 24 weeks,NA,100,NA,46,-36.2,19.0919,-33.5,28.4858
+STD-Essex-2014,Essex 2014,2014,1,All pain < 24 weeks,NA,96,NA,47,-39.7,18.7061,-28.6,24.6804
+STD-Fleischmann-2005,Fleischmann 2005,2006,1,All pain < 24 weeks,NA,444,NA,231,-27.4,27.72,-21.3,26.33
+STD-Gibofsky-2003,Gibofsky 2003,2003,1,All pain < 24 weeks,NA,178,NA,96,-33.9,15.4,-20.7,16.1
+STD-Hochberg-2011-Study-307,Hochberg 2011 Study 307,2011,1,All pain < 24 weeks,NA,242,NA,124,-41.8,26.5,-35.6,26.5
+STD-Hochberg-2011-Study-309,Hochberg 2011 Study 309,,1,All pain < 24 weeks,NA,244,NA,122,-42.9,26.5,-38.4,26.5
+STD-Kivitz-2001,Kivitz 2001,2001,1,All pain < 24 weeks,NA,207,NA,217,-23.3,9.5,-11.1,14.0712
+STD-Lehmann-2005,Lehmann 2005,2005,1,All pain < 24 weeks,NA,420,NA,424,-26.6,23.65,-21.4,23.97
+STD-McKenna-2001a,McKenna 2001a,2001,1,All pain < 24 weeks,NA,63,NA,60,-38.2,16.2,-25.04,13.8
+STD-McKenna-2001b,McKenna 2001b,2001,1,All pain < 24 weeks,NA,199,NA,200,-34.9,28.1,-23.1,28
+STD-Pincus-2004-PACES_x002d_a,Pincus 2004 PACES-a,2004,1,All pain < 24 weeks,NA,181,NA,172,-19,25.7,-10.5,25.2
+STD-Pincus-2004-PACES_x002d_b,Pincus 2004 PACES-b,,1,All pain < 24 weeks,NA,189,NA,182,-21.8,26.5,-7.6,26.8
+STD-Rother-2007,Rother 2007,2007,1,All pain < 24 weeks,NA,132,NA,127,-20.7,22.7,-12.4,21
+STD-Schnitzer-2011,Schnitzer 2011,2011,1,All pain < 24 weeks,NA,419,NA,416,-33.4,27,-24.3,26.05
+STD-Sheldon-2005,Sheldon 2005,2005,1,All pain < 24 weeks,NA,393,NA,382,-24.1,26.4,-18.1,25.51
+STD-Smugar-2006-Study-1,Smugar 2006 Study 1,2006,1,All pain < 24 weeks,NA,447,NA,146,-30.5,21.1,-17.6,20.5
+STD-Smugar-2006-Study-2,Smugar 2006 Study 2,,1,All pain < 24 weeks,NA,459,NA,150,-28.1,19.3,-16.2,20.8
+STD-Tannenbaum-2004,Tannenbaum 2004,2004,1,All pain < 24 weeks,NA,481,NA,243,-25.2,24.7,-19.8,26.1
+STD-Williams-2000,Williams 2000,2000,1,All pain < 24 weeks,NA,453,NA,231,-26.4,16.6,-13,15.1
+STD-Williams-2001,Williams 2001,2001,1,All pain < 24 weeks,NA,236,NA,243,-24.2,16.5,-17.4,16.5
+STD-Asmus-2014-Study-1,Asmus 2014 Study 1,2014,19,Number withdrawn due to adverse events,5,188,9,187,NA,NA,NA,NA
+STD-Asmus-2014-Study-2,Asmus 2014 Study 2,2014,19,Number withdrawn due to adverse events,6,194,12,191,NA,NA,NA,NA
+STD-Bensen-1999,Bensen 1999,1999,19,Number withdrawn due to adverse events,16,197,8,203,NA,NA,NA,NA
+STD-Bingham-2007-Study-1,Bingham 2007 Study 1,2007,19,Number withdrawn due to adverse events,12,241,6,127,NA,NA,NA,NA
+STD-Bingham-2007-Study-2,Bingham 2007 Study 2,2007,19,Number withdrawn due to adverse events,8,247,12,117,NA,NA,NA,NA
+STD-Birbara-2006-Study-1,Birbara 2006 Study 1,2006,19,Number withdrawn due to adverse events,3,157,2,78,NA,NA,NA,NA
+STD-Birbara-2006-Study-2,Birbara 2006 Study 2,2006,19,Number withdrawn due to adverse events,6,157,3,85,NA,NA,NA,NA
+STD-Clegg-2006,Clegg 2006,2006,19,Number withdrawn due to adverse events,7,318,11,313,NA,NA,NA,NA
+STD-Conaghan-2013,Conaghan 2013,2013,19,Number withdrawn due to adverse events,13,235,13,228,NA,NA,NA,NA
+STD-DeLemos-2011,DeLemos 2011,2011,19,Number withdrawn due to adverse events,20,202,15,200,NA,NA,NA,NA
+STD-Essex-2012b,Essex 2012b,2012,19,Number withdrawn due to adverse events,7,127,2,67,NA,NA,NA,NA
+STD-Essex-2014,Essex 2014,2014,19,Number withdrawn due to adverse events,3,127,1,62,NA,NA,NA,NA
+STD-Fleischmann-2005,Fleischmann 2005,2006,19,Number withdrawn due to adverse events,33,446,17,232,NA,NA,NA,NA
+STD-Gibofsky-2003,Gibofsky 2003,2003,19,Number withdrawn due to adverse events,11,189,5,96,NA,NA,NA,NA
+STD-Hochberg-2011-Study-307,Hochberg 2011 Study 307,2011,19,Number withdrawn due to adverse events,16,247,7,124,NA,NA,NA,NA
+STD-Hochberg-2011-Study-309,Hochberg 2011 Study 309,,19,Number withdrawn due to adverse events,22,247,6,124,NA,NA,NA,NA
+STD-Kivitz-2001,Kivitz 2001,2001,19,Number withdrawn due to adverse events,27,207,16,218,NA,NA,NA,NA
+STD-Lehmann-2005,Lehmann 2005,2005,19,Number withdrawn due to adverse events,20,420,16,424,NA,NA,NA,NA
+STD-McKenna-2001a,McKenna 2001a,2001,19,Number withdrawn due to adverse events,4,63,1,60,NA,NA,NA,NA
+STD-McKenna-2001b,McKenna 2001b,2001,19,Number withdrawn due to adverse events,14,199,14,200,NA,NA,NA,NA
+STD-Rother-2007,Rother 2007,2007,19,Number withdrawn due to adverse events,18,132,20,127,NA,NA,NA,NA
+STD-Schnitzer-2011,Schnitzer 2011,2011,19,Number withdrawn due to adverse events,22,419,18,416,NA,NA,NA,NA
+STD-Sheldon-2005,Sheldon 2005,2005,19,Number withdrawn due to adverse events,16,393,24,382,NA,NA,NA,NA
+STD-Smugar-2006-Study-1,Smugar 2006 Study 1,2006,19,Number withdrawn due to adverse events,23,456,9,150,NA,NA,NA,NA
+STD-Smugar-2006-Study-2,Smugar 2006 Study 2,,19,Number withdrawn due to adverse events,14,460,3,151,NA,NA,NA,NA
+STD-Tannenbaum-2004,Tannenbaum 2004,2004,19,Number withdrawn due to adverse events,47,481,21,243,NA,NA,NA,NA
+STD-Williams-2000,Williams 2000,2000,19,Number withdrawn due to adverse events,20,454,20,232,NA,NA,NA,NA
+STD-Williams-2001,Williams 2001,2001,19,Number withdrawn due to adverse events,15,482,12,243,NA,NA,NA,NA
